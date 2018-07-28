@@ -9,9 +9,8 @@ This tool provides decoding-encoding with MD5.
      -p FILEPATH, --filepath FILEPATH use as : -p [filepath] or --filepath [filepath]
      -e, --encode          use as:-hs [object] -e
      -d, --decode          use as: -hs [object] -p [path] -d
-```
+
     Example:
-    ```
       CommandLine ~$ python3 md5.py -hs [hash object here] -e
 
       CommandLine ~$ python3 md5.py -hs [hashed object here] -d
@@ -25,5 +24,5 @@ This tool provides decoding-encoding with MD5.
       DECODED OBJECT: 72a40ac74b7a2472826f306f02e508fc RESULT: hashing
 
       TOTAL TIME: 0.0638728141784668 SECONDS
-      ```
+```
 Attention:Only Educational Purposes.
