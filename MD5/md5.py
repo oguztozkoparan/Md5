@@ -25,7 +25,7 @@ def decode(hashObject,filepath):
             print("DECODED OBJECT: ", hashObject,"RESULT: ",object)
             break
     else:
-        print("DID NOT FOUND IN YOUR WORD LIST!")
+        print("DID NOT FIND IN YOUR WORD LIST!")
     end = time.time()#Ending time
     ctime = end - start#Total time
     print("TOTAL TIME: ",ctime," SECONDS\n")
