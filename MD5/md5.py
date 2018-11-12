@@ -33,7 +33,7 @@ def decode(hashObject,filepath):
 
 #Main function
 def Main():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser()#to add arguments
     group = parser.add_mutually_exclusive_group()
     parser.add_argument("-hs","--hashobject",help="use as : -hs [string] or --hashobject [string]",action="store")
     parser.add_argument("-p","--filepath",help="use as : -p [filepath] or --filepath [filepath]",action="store")
